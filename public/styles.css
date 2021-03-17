@@ -1,0 +1,41 @@
+#textContainer{
+    width:220px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.sliderContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width:1000px;
+    height: 100px;
+}
+.buttonContainer{
+    width:400px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#pickBack,#pickText{
+    width:45%;
+    height: 100%;
+    border: 1px solid gray;
+}
+#pickText{
+    background: aqua;
+}
+#pickBack,#pickText:focus{
+    outline: none;
+}
+
+
+#slider .ui-slider-range { background: #ef2929; }
+#slider .ui-slider-handle { border-color: #ef2929; }
